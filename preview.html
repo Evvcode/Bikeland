@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bikeland</title>
+    <link href="res/favicon.png" rel="icon">
+    <link href="css/preview.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Open Sans|Grape Nuts|Cantarell" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="lib/MapGPX.js"></script>
+    <script src="lib/Statistics.js"></script>
+    <script src="lib/ChartManager.js"></script>
+    <script src="lib/StarManager.js"></script>
+</head>
+
+<body>
+    <h1 id="title">Bikeland</h1><br>
+    <div id="flex-div">
+        <div id="points-div">
+            <h2>Osiągnięcia</h2><br>
+            <img src="ico/star.png" class="star" width="32" height="32">
+            <p class="star-text" id="star-amount"></p>
+        </div>
+        <div id="map-div"></div>
+        <div id="stats-div">
+            <h2>Statystyki</h2><br>
+            <div class="stats-value">
+                <img src="ico/distance.png" class="stats-image" width="28" height="28">
+                <p class="stats-text" id="distance-val"></p>
+            </div>
+            <div class="stats-value">
+                <img src="ico/time.png" class="stats-image" width="28" height="28">
+                <p class="stats-text" id="time-val"></p>
+            </div>
+            <div class="stats-value">
+                <img src="ico/averageSpeed.png" class="stats-image" width="28" height="28">
+                <p class="stats-text" id="avg-speed-val"></p>
+            </div>
+            <div class="stats-value">
+                <img src="ico/maxSpeed.png" class="stats-image" width="28" height="28">
+                <p class="stats-text" id="max-speed-val"></p>
+            </div>
+            <div class="stats-value">
+                <img src="ico/maxAltitude.png" class="stats-image" width="28" height="28">
+                <p class="stats-text" id="max-alti-val"></p>
+            </div>
+            <div class="stats-value">
+                <img src="ico/minAltitude.png" class="stats-image" width="28" height="28">
+                <p class="stats-text" id="min-alti-val"></p>
+            </div>
+            <div class="stats-value">
+                <img src="ico/altitudeUp.png" class="stats-image" width="28" height="28">
+                <p class="stats-text" id="alti-up-val"></p>
+            </div>
+            <div class="stats-value">
+                <img src="ico/altitudeDown.png" class="stats-image" width="28" height="28">
+                <p class="stats-text" id="alti-down-val"></p>
+            </div>
+            <div class="stats-value">
+                <img src="ico/averageTemperature.png" class="stats-image" width="28" height="28">
+                <p class="stats-text" id="avg-temp-val"></p>
+            </div>
+        </div>
+    </div><br>
+    <div class="chart-div">
+        <canvas style="position: relative; height:70vh; width:100vw" id="altitudeChart"></canvas>
+    </div>
+    <div class="chart-div">
+        <canvas style="position: relative; height:70vh; width:100vw" id="speedChart"></canvas>
+    </div>
+    <script src="js/preview.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"></script>
+</body>
+
+</html>

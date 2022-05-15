@@ -1,0 +1,87 @@
+body {
+    background-image: url('../res/background.png');
+    background-size: cover;
+    padding: 8px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: "Comfortaa", sans-serif;
+}
+
+
+/*.stats-value {
+    text-align: center;
+}*/
+
+.stats-image {
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.stats-text {
+    display: inline-block;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+    margin-bottom: 0px;
+    margin-top: 4px;
+}
+
+.star {
+    display: inline;
+    margin-right: 16px;
+}
+
+.star-text {
+    display: inline;
+    color: white;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 32px;
+}
+
+.chart-div {
+    background-color: #111;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 8px;
+    height: 400px;
+}
+
+#title {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 36px;
+    color: white;
+    margin-top: 0px;
+}
+
+#flex-div {
+    display: flex;
+}
+
+#map-div {
+    flex: 60%;
+    background-color: #111;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 8px;
+    height: 500px;
+}
+
+#stats-div {
+    flex: 20%;
+    background-color: #111;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 8px;
+}
+
+#points-div {
+    flex: 20%;
+    background-color: #111;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 8px;
+    text-align: center;
+}
