@@ -7,7 +7,7 @@ body {
 h2 {
     text-align: center;
     color: white;
-    font-family: "Comfortaa", sans-serif;
+    font-family: "Questrial", sans-serif;
 }
 
 
@@ -23,7 +23,7 @@ h2 {
 .stats-text {
     display: inline-block;
     color: white;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Outfit", sans-serif;
     font-size: 28px;
     margin-bottom: 0px;
     margin-top: 4px;
@@ -37,12 +37,12 @@ h2 {
 .star-text {
     display: inline;
     color: white;
-    font-family: "Comfortaa", sans-serif;
+    font-family: "Outfit", sans-serif;
     font-size: 32px;
 }
 
 .chart-div {
-    background-color: #111;
+    background-color: #11111188;
     border-radius: 8px;
     padding: 8px;
     margin: 8px;
@@ -62,7 +62,7 @@ h2 {
 
 #map-div {
     flex: 60%;
-    background-color: #111;
+    background-color: #11111188;
     border-radius: 8px;
     padding: 8px;
     margin: 8px;
@@ -71,7 +71,7 @@ h2 {
 
 #stats-div {
     flex: 20%;
-    background-color: #111;
+    background-color: #11111188;
     border-radius: 8px;
     padding: 16px;
     margin: 8px;
@@ -79,7 +79,7 @@ h2 {
 
 #points-div {
     flex: 20%;
-    background-color: #111;
+    background-color: #11111188;
     border-radius: 8px;
     padding: 16px;
     margin: 8px;
